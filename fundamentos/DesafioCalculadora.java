@@ -8,15 +8,12 @@ public class DesafioCalculadora {
 		// Ler num 1
 		// Ler num 2
 		Scanner entrada = new Scanner(System.in);
-		
 		System.out.println("Digite um numero: ");
 		Double num1 = entrada.nextDouble();
-		
 		System.out.println("Digite outro numero: ");
 		Double num2 = entrada.nextDouble();
 		
-		
-		System.out.println("Digite qual operação deseja realizar (+ - / * % ) ");
+		System.out.println("Digite qual operaï¿½ï¿½o deseja realizar (+ - / * % ) ");
 		String ope = entrada.next();
 		
 		Double resultado = "+".equals(ope) ? num1 + num2 : 0;
